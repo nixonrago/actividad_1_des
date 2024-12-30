@@ -18,8 +18,6 @@ function Landing() {
                 </Link>
                 <span className="laser-pointer"></span>
                 <span className="laser-pointer-reverse"></span>
-                {/*
-                    */}
 
             </div>
         </div>

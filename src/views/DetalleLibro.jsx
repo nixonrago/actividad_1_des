@@ -47,7 +47,6 @@ const DetalleLibro = () => {
             <button type="button" className="btn btn-primary" onClick={() => handleAgregar(libro)}> Añadir al Carrito
             </button>
 
-
             {/* Sección de críticas */}
             <div className="reviews-section mt-5">
                 <h3>Críticas de los lectores:</h3>

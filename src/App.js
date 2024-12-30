@@ -9,11 +9,11 @@ import {Carrito} from "./components/Carrito";
 
 function App() {
     const Libros = useLibreria();
-    //const [carrito, setCarrito] = useState([]);
+
 
 
   return (
-//<Carrito.provider>
+
       <Carrito>
       <LibroContexto.Provider value={{Libros}}>
 
@@ -21,8 +21,6 @@ function App() {
 
     </LibroContexto.Provider>
       </Carrito>
-//</Carrito.provider>
-
 
         );
 
